@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import './ArticleBody.css'
 
-
+class ArticleBody extends Component {
+  render() {
+    return (
     <div>
         <section class="article-body">
           <p><span class="article-start gold">E</span>psum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium.</p>
@@ -22,6 +24,7 @@ import './ArticleBody.css'
           <a class="article-link" href="#">
             <i class="fa fa-comments-o"></i>
             <span class="article-link-text">Comments</span>
+              
           </a>
           <a class="article-link" href="#">
             <i class="fa fa-share"></i>
@@ -29,5 +32,8 @@ import './ArticleBody.css'
           </a>
         </div>
       </div>
+   );
+  }
+}
 
       export default ArticleBody
